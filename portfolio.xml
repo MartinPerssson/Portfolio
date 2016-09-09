@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+<image>
+   <title>"Wishr" a webapplication built in PHP that helps users create custom wishlists.</title>
+</image>
+<image>
+   <title>A simple but addictive memory game in javascript.</title>
+</image>
+<image>
+   <title>A nice little quiz game thats easily extendable thanks to jSON.</title>
+</image>
+</images>

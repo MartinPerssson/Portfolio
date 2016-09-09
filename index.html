@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="/css/master.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="style/style.css" media="screen" title="no title" charset="utf-8">
+
+  <!--CDN link for Google fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <script src="https://use.fontawesome.com/bcae98e1f2.js"></script>
+  <title>Martin Persson</title>
+</head>
+<body class="landing-page">
+  <div class="wrapper">
+    <nav id="nav">
+      <div class="navLogo"><a href="#"><img class="logo" src="img/Logo.png" alt="logo pic" /></a></div>
+      <div class="navItems">
+        <ul>
+          <li><a class="homeLink" href="#">Home</a></li>
+          <li><a class="aboutLink" href="#">About</a></li>
+          <li><a class="portfolioLink" href="#">Portfolio</a></li>
+          <li><a class="cvLink" href="#">Curriculum vitae</a></li>
+          <li><a class="contactLink" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="mobileNav">
+      <div class="navLogo"><a href="#"><img class="logo" src="img/Logo.png" alt="logo pic" /></a></div>
+      <div class="mobileIcon cross">
+        <div class="hamburger"></div>
+      </div>
+      <div class="clear">
+      </div>
+      <div class="mobileMenu" style="display: none;">
+        <ul>
+          <li><a class="homeLink" href="#">Home&nbsp;</a></li>
+          <li><a class="aboutLink" href="#">About&nbsp;</a></li>
+          <li><a class="portfolioLink" href="#">Portfolio&nbsp;</a></li>
+          <li><a class="cvLink" href="#">CV&nbsp;</a></li>
+          <li><a class="contactLink" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="header">
+      <div class="headerBackground"></div>
+      <div class="mobileBackground"></div>
+      <div class="headerContent"><img src="img/LogoMP.png" alt="" /></div>
+    </header>
+
+    <div class="main">
+      <div class="mainInner">
+
+      </div>
+    </div>
+
+    <div class="about page">
+      <h1>About</h1>
+      <p>
+        Im a 29 year old Developer who loves problem solving and creating awesome stuff.
+        I've always had a creative side, in recent years that creativity has evolved together with technology that led me to where I am today. </br>
+        A Front-end developer student at Medieinstitutet in Stockholm where i learn to  build websites.</br>
+        I specialize in front-end development (HTML5, CSS3, Javascript) but i can aslo write a few lines of PHP.
+      </p>
+
+      <img class="skills" src="img/fe.png" alt="picture thats animated" />
+    </div>
+
+    <div class="portfolio page" id="portfolio">
+
+      <p id="titleOne"></p>
+
+      <a href="http://andersberg.net/wishr/index.php?/">
+        <img id="imgOne" src="img/wishr.png" alt="project picture" />
+      </a>
+    </br>
+
+      <p id="titleTwo"></p>
+
+      <a href="http://mar-per.se/memory/">
+        <img id="imgTwo" src="img/memory.png" alt="project picture" />
+      </a>
+    </br>
+
+      <p id="titleThree"></p>
+
+      <a href="http://mar-per.se/quiz/">
+        <img id="imgThree" src="img/quiz.png" alt="project picture" />
+      </a>
+
+    </div>
+
+    <div class="cv page">
+
+      <a class="mobilePdf" href="src/CV.pdf" download><img src="img/pdf-icon.png"></a>
+
+      <object data="src/CV.pdf" type="application/pdf"></object>
+    </div>
+
+    <div class="contact page">
+    </div>
+  </div>
+  <footer>&copy; 2016 - Martin Persson</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!--CDN link for  TweenMax-->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+  <script src="js/xml.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

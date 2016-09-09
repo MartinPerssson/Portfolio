@@ -1,0 +1,14 @@
+/* Desktop Screen */
+@media screen and (min-width: 1024px) {
+    @import "desktop";
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 1024px) {
+    @import "tablet";
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 760px) {
+    @import "mobile";  
+}

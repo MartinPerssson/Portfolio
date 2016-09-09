@@ -1,0 +1,8 @@
+{
+  "name": "Martins Portfolio",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
